@@ -12,4 +12,5 @@ for dirpath, dirnames, filenames in os.walk(root_dir):
         print(file)
 
 print(f"Found {len(all_files)} files.")
+print(all_files)
 
