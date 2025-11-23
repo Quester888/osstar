@@ -8,7 +8,7 @@ all_folders = []
 for dirpath, dirnames, filenames in os.walk(root_dir):
     # Append the current directory
     all_folders.append(dirpath)
-    prnt(file)
+    print(file)
     
     # Optionally, skip directories we can't access
     # for dirname in dirnames[:]:
