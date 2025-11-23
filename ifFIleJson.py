@@ -15,3 +15,4 @@ for dirpath, dirnames, filenames in os.walk(root_dir):
         print("skipped")
 
 print(f"Found {len(all_files)} files.")
+print(all_files)
